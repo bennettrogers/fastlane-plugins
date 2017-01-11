@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = %q{bennettrogers@gmail.com}
 
   spec.summary       = %q{Returns a listing of all app versions and their latest builds from iTunes Connect.}
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-fetch_itc_versions"
+  spec.homepage      = "https://github.com/bennettrogers/fastlane-plugins/fastlane-plugin-fetch_itc_versions"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
