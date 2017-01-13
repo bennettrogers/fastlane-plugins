@@ -23,6 +23,7 @@ module Fastlane
         end
         data["edit"] = edit_versions
 
+        data["live"] = []
         if app.live_version
           data["live"] = [{ version: app.live_version.version, build: app.live_version.build_version }]
         end
